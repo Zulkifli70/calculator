@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #b17f59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 10px;
+  width: 95%;
+  height: 100px;
+  font-size: larger;
+  color: black;
+}
+
+#keys {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+button {
+  width: 20%;
+  height: 50px;
+  border-radius: 10rem;
+  background-color: rgb(224, 224, 224);
+}
+
+.reset-btn,
+.delete-btn {
+  background-color: rgb(297, 252, 240);
+  width: 43%;
+}
+
+.reset-btn {
+  background-color: tomato;
+}
+
+.btn-operator {
+  background-color: #ede8dc;
+}
