@@ -121,7 +121,6 @@ function calculate() {
   secondNumber = inputValue;
   const result = operate(operator, firstNumber, secondNumber);
 
-  // Handle pembagian dengan nol
   if (typeof result === "string") {
     display.value = result;
   } else {
